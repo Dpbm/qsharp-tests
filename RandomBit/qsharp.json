@@ -1,0 +1,14 @@
+{
+    "author": "Dpbm",
+    "license": "MIT",
+    "lints": [
+        {
+            "lint": "redundantSemicolons",
+            "level": "warn"
+        },
+        {
+            "lint": "divisionByZero",
+            "level": "error"
+        }
+    ]
+}

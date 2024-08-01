@@ -7,7 +7,6 @@ namespace MeasuringTest {
     operation main() : Unit {
         Message("Testing different measurements with multiple qubits!");
 
-        use q = Qubit();
         let resultZ = MeasureManyTimes(MeasureZTest, 1000);
         let resultX = MeasureManyTimes(MeasureXTest, 1000);
         let resultY = MeasureManyTimes(MeasureYTest, 1000);

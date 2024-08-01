@@ -1,7 +1,7 @@
 namespace HelloWorld {
 
     @EntryPoint()
-    operation main() : Unit {
+    function main() : Unit {
         Message("Hello World");
     }
 
