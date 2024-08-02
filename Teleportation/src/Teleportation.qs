@@ -17,8 +17,8 @@ namespace TeleportationTest {
         DumpMachine();
 
         Message("3. Encode the message");
-        X(alice[0]);
-        H(alice[0]);
+        //X(alice[0]);
+        //H(alice[0]);
         DumpMachine();
 
         Message("4. Make a Bell measurement on the Alice's qubits");
